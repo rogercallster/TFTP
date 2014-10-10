@@ -17,7 +17,7 @@ class UDPServer
       {
          @SuppressWarnings("resource")
 		DatagramSocket  serverSocket = new DatagramSocket(5678);
-        
+         
           final  byte[] receiveData  = new byte[512];
             while(true)
                {
